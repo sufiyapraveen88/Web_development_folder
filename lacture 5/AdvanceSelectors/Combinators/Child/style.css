@@ -1,0 +1,43 @@
+/* child combinator */
+/* section>div>p{
+    background-color: blue;
+}
+
+article>div>p{
+    color: aqua;
+    background-color: blueviolet;
+}
+
+span>ul>li>a{
+    border: 2px solid coral;
+    text-align: center;
+}  */
+
+/* Adjascent sibling */
+/* article + section{
+    color: aqua;
+    background-color: blue;
+} */
+
+/* article + ul{
+    color: blueviolet;
+    background-color: yellow;
+} */
+
+section + article{
+    background-color: rgb(208, 33, 33);
+}
+
+article + section{
+    background-color: blueviolet;
+}
+
+article + ul{
+    background-color: blueviolet;
+}
+
+/* general sibling */
+
+
+
+

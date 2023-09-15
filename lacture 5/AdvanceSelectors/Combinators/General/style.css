@@ -1,0 +1,10 @@
+/* General sibling */
+
+article ~ div{
+    background-color: blue;
+}
+
+div ~ article{
+    color: crimson;
+    border: 3px solid lightcoral
+}

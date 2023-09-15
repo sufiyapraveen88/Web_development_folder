@@ -1,0 +1,61 @@
+/* ul{
+    background-color: blueviolet;
+}
+
+div{
+    border: 3px solid aqua;
+    color: blue;
+}
+
+h1{
+    color: red;
+    text-align: center;
+} */
+
+/* Id selector */
+/* #sam{
+    background-color: brown;
+}
+
+
+/* class selector */
+
+/* .important{
+    color: blue;
+    background-color: aqua;
+    border: 3px solid black;
+} */
+
+/* attribute selector */
+
+a[href='http://google.com']{
+    font-size: 30px;
+    background-color: aqua;
+}
+
+input[type='Name']{
+    background-color: cornflowerblue;
+    width: 70px;
+}
+
+input[type='password']{
+    border: dotted;
+    color: blue;
+}
+
+#special{
+    background-color: aqua;
+}
+
+input[disabled]{
+    font-size: 40px;
+}
+
+/* universal selector */
+*{
+    color: darkgoldenrod;
+    border: 3px solid aqua;
+}
+body{
+    border: 10px solid blue;
+}

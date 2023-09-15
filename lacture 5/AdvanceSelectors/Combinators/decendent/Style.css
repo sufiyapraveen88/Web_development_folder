@@ -1,0 +1,12 @@
+
+
+/* decendent selector */
+section div section p{
+    color: blueviolet;
+    background-color: aqua;
+}
+
+section article p{
+    color: blue;
+    background-color: lightcoral;
+}

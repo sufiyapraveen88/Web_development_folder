@@ -1,0 +1,101 @@
+
+
+/* h1{
+    text-align: center;
+    background-color: blue;
+} */
+
+/* h1{
+    display: inline-block;
+    
+
+} */
+
+/* h1{
+   display: inline-block;
+   text-align: center;
+    
+} */
+
+
+/* hover selector */
+/* h1{
+    background-color: aqua;
+}
+
+h1:hover{
+    background-color: blue;
+}
+
+input:hover{
+    background-color: blueviolet;
+    border: 3px solid yellow;
+}
+
+/* active selector */
+/* a[href="http://wikipedia.com"]:active{
+    color: #f4f829;
+}
+
+a[href="http://google.com"]:visited{
+    color: aqua;
+}
+
+a[href="https://code.visualstudio.com/"]:visited{
+    color:rgb(223, 241, 22);
+} */
+
+/* focus selector */
+
+/* input{
+    background-color: antiquewhite;
+}
+
+input:hover{
+    background-color: aqua;
+}
+
+input:focus{
+    background-color: brown;
+} */
+
+/* nth-of-type */
+
+/* li:nth-of-type(odd){
+    background-color: cornflowerblue;
+}
+
+li:nth-of-type(even){
+    color: aqua;
+    background-color: darksalmon;
+    
+}
+
+input{
+    text-align: center;
+} */
+
+/* p:nth-of-type(even){
+    color: blue;
+} */
+/* 
+p:nth-of-type(){
+    color: brown;
+} */
+
+/* p:last-of-type{
+    background-color: blueviolet;
+}
+
+p:nth-of-type(6){
+    background-color: aqua;
+} */
+
+li:nth-of-type(3n+4){
+    color: darkseagreen;
+
+}
+
+p:nth-of-type(4n+2){
+    background-color: brown;
+}
