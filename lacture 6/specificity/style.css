@@ -1,0 +1,49 @@
+/* id */
+#sam{
+    color: blue;
+}
+
+/* class */
+
+.sammy{
+    color: aqua
+}
+
+.sammy{
+    color: brown;
+}
+
+.live{
+    background-color: darkorange;
+}
+
+.special{
+    border: 2px solid black
+}
+
+ /* .sammy{
+    color: lightsalmon;
+ } */
+
+
+
+/* element */
+div{
+    color: deeppink; 
+}
+
+div{
+    color: peru;
+}
+
+ol{
+    color: rgb(14, 212, 176);
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+ol>li{
+    color: blueviolet;
+    font-size: 60px;
+    border: 1px solid blue;
+}

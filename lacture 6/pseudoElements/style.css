@@ -1,0 +1,45 @@
+div::first-letter{
+    font-size: 50px;
+    color: lightseagreen;
+}
+
+div::before{
+    content: "Hello i am div";
+    text-decoration: none;
+}
+
+p::first-line{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* a[href="http://google.com"]::first-letter{
+    color:red;
+    font-size: 100px;
+} */
+
+/* a[href="http://google.com"]::after{
+    content: "Hii i am google link";
+} */
+
+/* a[href="http://google.com"]::before{
+    content: "pseudo element";
+} */
+
+/* a[href="http://google.com"]{
+    text-decoration: none;
+} */
+
+a[href="http://raddit.com"]::before{
+    content: '\1F4F1';
+}
+
+a[href="http://raddit.com"]::after{
+    content: '\1F4F1';
+}
+
+a[href="http://raddit.com"]{
+    text-decoration: none;
+}
+
+

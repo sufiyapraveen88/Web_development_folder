@@ -1,0 +1,48 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+/* Hexadecimal */
+/* div:nth-of-type(1){
+    background-color: #e83453;
+       text-align: center;
+}
+
+/* div:nth-of-type(2){
+    background-color: #32e823;
+
+} */
+
+/* div:nth-of-type(3){
+    background-color: #34549f;
+} */
+/* rgb */
+/* div:nth-of-type(1){
+    background-color: rgb(245, 20, 10) ;
+    text-align: center;
+}
+
+div:nth-of-type(2){
+    background-color: rgb(15, 250, 30);
+
+}
+
+div:nth-of-type(3){
+    background-color: rgb(20, 15, 254) ;
+} */
+/* rgba */
+div:nth-of-type(1){
+    background-color: rgb(245, 20, 10, 0.4) ;
+    text-align: center;
+}
+
+div:nth-of-type(2){
+    background-color: rgb(15, 250, 30, 0.2); /*kam --opaques*/
+
+}
+
+div:nth-of-type(3){
+    background-color: rgb(20, 15, 254, 0.9) ; /*jaida -- tansparent*/ 
+}
