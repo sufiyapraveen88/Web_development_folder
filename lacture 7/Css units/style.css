@@ -1,0 +1,50 @@
+
+/* absolute unit */
+/* #abs{
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+} */
+
+/* Relative unit */
+
+/* percentage */
+
+/* .A1 p{
+    font-size: 50%;
+} */
+
+/* .A1{
+    font-size: 200px;
+} */
+
+/* em unit */
+/* .suf{
+    font-size: 20px;
+} */
+
+/* li{
+    font-size: 2em;
+} */
+
+/* 3rem */
+/* .suf{
+    font-size: 20px;
+}
+
+li{
+    font-size: 2rem;
+} */
+
+/* view height and view width */
+
+#spacial{
+     width: 50vw;
+     height: 50vh;
+     background-color: aqua;
+}
+
+
+
+
+

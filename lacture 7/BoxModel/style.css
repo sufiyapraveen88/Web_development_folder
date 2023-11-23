@@ -1,0 +1,18 @@
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: darksalmon;
+    /* border: 2px dashed black; */
+    /* margin: 100px; */
+    /* margin: 10px 40px 20px 50px; */
+    border-top: 15px solid blue;
+    border-right: 5px dashed black;
+    /* padding: 40px; */
+    /* padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-left: 50px; */
+    padding: 50px 90px;
+    margin: 65px 90px 40px;
+}
