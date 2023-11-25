@@ -1,0 +1,47 @@
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    /* text-shadow: 5px 5px 1px red; */
+    /* text-shadow: -5px -5px 7px aqua; */
+    text-shadow: 
+    1px 1.2px 7px rgb(51, 0, 255),
+    1.1px 1.3px 7px green,
+    1.2px 1.4px 8px yellow,
+    1.3px 1.5px 8px aqua;
+    border: 2px solid black;
+    box-shadow: 
+    1px 1.2px 7px rgb(51, 0, 255),
+    1.1px 1.3px 7px green,
+    1.2px 1.4px 8px yellow,
+    1.3px 1.5px 8px aqua;
+}
+
+div>p:nth-of-type(1){
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+div>p:nth-of-type(2){
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p:nth-of-type(3){
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+p:nth-of-type(4){
+    font-size: 24px;
+    /* line-height: 0.3rem; */
+    line-height: 2rem;
+    font-weight: 900;
+}
+
+p:nth-of-type(5){
+    font-size: 20px;
+    /* letter-spacing: -0.1rem; */
+    letter-spacing: 0.1rem;
+}
