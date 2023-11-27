@@ -1,0 +1,21 @@
+.image{
+    height: 40vw;
+    width: 150vh;
+    border: 2px solid black;
+     /* background-size: 100% 100%;  */
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+    filter: grayscale(0%);
+    background-image:url('https://media.istockphoto.com/id/1395645467/photo/asian-woman-watching-movie-on-tablet-at-the-night-at-home-relax-and-recreation-lifestyle.jpg?s=1024x1024&w=is&k=20&c=kZvCMv6_D7wU4g8z-obhs9ayE5Y6D_O2BCpv756BPU4=')
+}
+
+.image:hover{
+    filter: grayscale(90%);
+    cursor: pointer;
+    
+}
+
+
+

@@ -1,0 +1,64 @@
+section{
+    width: 60vw;
+    border: 5px solid rgb(204, 200, 200);
+    margin: 30px auto;
+    height: 75vh;
+    overflow: scroll;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 
+    1.1px 1.1px 1px rgb(208, 201, 201),
+    1.2px 1.2px 2px rgb(77, 74, 74),
+    1.3px 1.3px 3px rgb(45, 43, 43),
+    1.4px 1.4px 4px rgb(216, 210, 210)
+    ;
+}
+
+img{
+    width: 250px;
+    float: left;
+    margin: 10px;
+
+   }
+
+   article{
+    margin: 15px;
+   }
+
+   h2{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   p{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   line-height: 1.2em;
+   }
+
+   
+
+   .clear{
+    clear: left;
+   }
+
+
+   hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr :before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
